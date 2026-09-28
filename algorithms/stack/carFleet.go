@@ -1,5 +1,7 @@
 package stack
 
+import "sort"
+
 func carFleet(target int, position []int, speed []int) int {
 
 	// Each car needs two pieces of information:
